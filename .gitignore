@@ -1,0 +1,19 @@
+.DS_Store
+**/.DS_Store
+*.log
+*.swp
+*.tmp
+
+# Secrets or machine-local auth/config.
+rclone/rclone.conf
+raycast/ai/
+
+# Runtime caches and generated state.
+emacs/.local/
+emacs/eln-cache/
+nvim/.git/
+emacs/.git/
+tmux/plugins/
+
+# App data and package/download caches are not dotfile config.
+ppsspp/
